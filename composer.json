@@ -1,0 +1,25 @@
+{
+    "name": "prontotype/bitkit",
+    "authors": [
+        {
+            "name": "Mark Perkins",
+            "email": "mark@allmarkedup.com"
+        }
+    ],
+    "require": {
+        "allmarkedup/clip": "^0.2.1",
+        "allmarkedup/dayglo": "^0.2.2",
+        "league/container": "^1.3",
+        "league/event": "^2.1",
+        "league/route": "^1.1",
+        "symfony/yaml": "^2.6",
+        "league/commonmark": "^0.8.0",
+        "allmarkedup/sup": "^0.2.6",
+        "mustache/mustache": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "BitKit\\": "src/"
+        }
+    }
+}
