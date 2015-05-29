@@ -20,6 +20,9 @@
     "autoload": {
         "psr-4": {
             "BitKit\\": "src/"
-        }
+        },
+        "files": [
+            "helpers.php"
+        ]
     }
 }
